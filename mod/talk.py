@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-from akad.ttypes import Message, Location
+from zelebez.ttypes import Message, Location
 from random import randint
 
 import json, ntpath
@@ -118,7 +118,7 @@ class Talk(object):
     def sendLocation(self, to, address, latitude, longitude, phone=None, contentMetadata={}):
         msg = Message()
         msg.to, msg._from = to, self.profile.mid
-        msg.text = "Location by Hello World"
+        msg.text = "Location by Zelebez"
         msg.contentType, msg.contentMetadata = 0, contentMetadata
         location = Location()
         location.address = address
@@ -229,7 +229,7 @@ class Talk(object):
     def sendMentionV2(self, to, text="", mids=[], isUnicode=False):
         arrData = ""
         arr = []
-        mention = "@zeroxyuuki "
+        mention = "@zelebez69 "
         if mids == []:
             raise Exception("Invalid mids")
         if "@!" in text:

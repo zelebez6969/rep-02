@@ -1,7 +1,7 @@
 from .client import LINE
 from .channel import Channel
 from .oepoll import OEPoll
-from akad.ttypes import OpType
+from zelebez.ttypes import OpType
 
 __modified__        = 'Zelebez'
 __copyright__       = 'Copyright 2018 by Fadhiil Rachman'

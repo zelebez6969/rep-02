@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-from akad.ttypes import MediaType
+from zelebez.ttypes import MediaType
 
 def loggedIn(func):
     def checkLogin(*args, **kwargs):
