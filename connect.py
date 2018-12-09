@@ -1,11 +1,12 @@
 from mod import *
-from akad.ttypes import ChatRoomAnnouncementContents, OpType, MediaType, ContentType, ApplicationType, TalkException, ErrorCode
+from zelebez.ttypes import ChatRoomAnnouncementContents, OpType, MediaType, ContentType, ApplicationType, TalkException, ErrorCode
 from datetime import datetime, timedelta
 from bs4 import BeautifulSoup
 from humanfriendly import format_timespan, format_size, format_number, format_length
 from threading import Thread
 from urllib.parse import urlencode, quote
 from pathlib import Path
+import youtube_dl
 import time, random, sys, json, codecs, re, os, shutil, requests, ast, pytz, atexit, traceback, base64, pafy, livejson, timeago, math, argparse
 
 try:

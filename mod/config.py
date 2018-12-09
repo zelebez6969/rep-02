@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-from akad.ttypes import ApplicationType
+from zelebez.ttypes import ApplicationType
 import re
 
 class Config(object):

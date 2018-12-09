@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-from akad.ttypes import Message
+from zelebez.ttypes import Message
 from .auth import Auth
 from .models import Models
 from .talk import Talk
